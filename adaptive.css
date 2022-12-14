@@ -1,0 +1,29 @@
+@media (max-device-width: 610px) {
+
+    label { font-size: 18px; }
+    
+    select { width: 30px; height: 30px; margin-bottom: 10px;}
+    
+    .wrapper {
+        padding: 20px;
+    }
+
+    .options { 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .btn { 
+        width: 120px;
+        height: 30px;
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+}
